@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    
+    
+}
+.instruction{
+   height: auto;
+   width: 600px;
+   border-radius: 8px;
+   background-color: antiquewhite;
+   padding: 22px;
+   margin-top: 22px;
+   margin-bottom: 22px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+    
+}
+h2{
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+ul li{
+    margin-left: 34px;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+    
+}
+p{
+    text-align: start;
+    font-size: 14px;
+}
+.accept{
+    margin-top: 12px;
+}
+
+.nextpage{
+    padding: 12px 25px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: rgb(210, 208, 208);
+   
+}
+h1{
+    color: blue;
+    font-size: 42px;
+    margin-bottom: 22px;
+}
+
+.inner{
+    height: 400px;
+    width: 600px;
+    border: none;
+    border-radius: 18px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+h2{
+    font-size: 14px;
+    text-align: center;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 12px;
+    
+    
+}
+li input{
+    font-size: 14px;
+    margin-right: 18px;
+    text-align: center;
+}
+
+#submit{
+    padding: 8px 20px;
+    color: #fff;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btn{
+    padding: 8px 20px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-left: 50px;
+
+}
