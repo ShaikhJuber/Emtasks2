@@ -1,0 +1,51 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todoContainer{
+    background-color: rgb(206, 202, 202);
+    border: none;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+
+}
+h1{
+    font-size: 32px;
+    color: blueviolet;
+    font-weight: 900;
+    text-align: center;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+   
+}
+.todolist{
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.todolist:hover{
+    color: red;
+}
+.todo input{
+    outline: none;
+    font-size: 18px;
+}
+.todo button{
+    padding: 6px 12px ;
+    color: #fff;
+    background-color: green;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
