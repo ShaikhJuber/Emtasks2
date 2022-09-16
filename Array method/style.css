@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.fruit-list{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(183, 178, 178);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.list{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(10, 1fr);
+    list-style: none;
+    font-size: 44px;
+
+}
+.inputfeild {
+    
+    margin-top: 1rem;
+
+}
+.inputfeild label{
+    font-size: 16px;
+    color: #000;
+    letter-spacing: .6px;
+}
+.inputfeild input{
+    padding: 8px 8px;
+}
+
+.result{
+    font-size: 44px;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+   height: 200px;
+   width: 200px;
+}
