@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit:wght@500&family=Lato:wght@700&family=Neucha&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.digitalclock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: blueviolet;
+    height: 100vh;
+    width: 100%;
+}
+.clock{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+.time{
+    text-align: center;
+    margin-left: 12px;
+    
+}
+h3{
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic ;
+    color: red;
+    
+}
+p{
+    font-size: 16px;
+    color: rgb(211, 211, 211);
+    font-style: italic;
+    padding-top: 24px;
+}
+span{
+    color: #000;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-right: 12px;
+}
+@media (max-width: 664px) {
+    h3{
+        font-size: 8px;
+    }
+    span{
+        font-size: 34px;  
+    }
+    p{
+        font-size: 12px;  
+    }
+    
+}
